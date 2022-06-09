@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1098763564292",
+    "project_id": "finale-cea82",
+    "storage_bucket": "finale-cea82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098763564292:android:47dc05827876ba13884c51",
+        "android_client_info": {
+          "package_name": "com.sosis.city_travel_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098763564292-jfjit4ld4g2jptjmff1ir0fhlp9gc0ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwffcXdU0STecMmzOaiYp39ecsw1CqyEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098763564292-jfjit4ld4g2jptjmff1ir0fhlp9gc0ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098763564292:android:8a010985f08f6b2e884c51",
+        "android_client_info": {
+          "package_name": "om.sosis.city_travel_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098763564292-jfjit4ld4g2jptjmff1ir0fhlp9gc0ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwffcXdU0STecMmzOaiYp39ecsw1CqyEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098763564292-jfjit4ld4g2jptjmff1ir0fhlp9gc0ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
