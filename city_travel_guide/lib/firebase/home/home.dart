@@ -1,3 +1,4 @@
+import 'package:city_travel_guide/firebase/home/settings_form.dart';
 import 'package:city_travel_guide/model/yoru.dart';
 import 'package:city_travel_guide/services/auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -13,6 +14,17 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    void _showSettingsPanel(){
+      showModalBottomSheet(context: context, builder:(context){
+        return Container(
+          padding: EdgeInsets.symmetric(vertical: 20.0,horizontal: 60.0),
+          child: SettingsForm(),
+        );
+      });
+
+    }
+
     return StreamProvider<List<Yorum>>.value(
       value: DatabaseService().yorums,
       child: Scaffold(
@@ -28,7 +40,13 @@ class Home extends StatelessWidget {
               await _auth.signOut();
 
             },
-            )
+            ),
+            FlatButton.icon(
+              icon :Icon(Icons.settings),
+             label:Text('settings'),
+             onPressed:()=> _showSettingsPanel(),
+            ),
+
           ],
         ),
         body: YorumList(),
