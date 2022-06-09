@@ -26,10 +26,29 @@ class DatabaseService {
     }).toList();
   }
 
+  //userdata from snapshot
+ // UserData _userDataFromSnapshot(DocumentSnapshot snapshot){
+  //  return UserData(
+ //     uid: uid,
+  //    name: snapshot.data['name'],
+  //    name: snapshot.data['name'],
+  //    name: snapshot.data['name'],
+ //   )
+  //}
+
+
   // get comment stream
 Stream<List<Yorum>> get yorums{
     return yorumCollection.snapshots()
     .map(_yorumListFromSnapshot);
+}
+
+
+
+
+//user doc stream
+Stream<DocumentSnapshot> get userData{
+    return yorumCollection.doc(uid).snapshots();
 }
 
 }
