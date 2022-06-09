@@ -7,5 +7,8 @@ login sistemi ve yorum için firebase
 
 
 
-https://user-images.githubusercontent.com/39348003/172880379-c610b691-7aa3-4dbe-884b-432021222138.mp4
+
+
+https://user-images.githubusercontent.com/39348003/172880648-26ea67ad-6e1c-44cc-9e18-bb0f098876ad.mp4
+
 
